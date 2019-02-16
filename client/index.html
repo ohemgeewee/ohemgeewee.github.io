@@ -5,6 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
         <title>MT5, the HTML5 multitrack player for musicians</title>
         <ascript src="https://cwilso.github.io/AudioContext-MonkeyPatch/AudioContextMonkeyPatch.js"></ascript>
+        <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBjDH1cqxB-Rv8dBNC6UXUJNIx-jDXJ_AU",
+            authDomain: "choiraudioplayer.firebaseapp.com",
+            databaseURL: "https://choiraudioplayer.firebaseio.com",
+            projectId: "choiraudioplayer",
+            storageBucket: "choiraudioplayer.appspot.com",
+            messagingSenderId: "976046621119"
+          };
+          firebase.initializeApp(config);
+        </script>
         <script src="/js/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/view.js"></script>
