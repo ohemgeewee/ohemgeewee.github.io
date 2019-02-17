@@ -1,3 +1,6 @@
+const functions = require('firebase-functions');
+const express = require('express');
+const app = express();
 // Amine Hallili
 // Creation de l'objet interface pour simplifier le code et le rendre facilement maintenable
 // cette classe ne doit contenir que le traitement lié directement à l'interface graphique

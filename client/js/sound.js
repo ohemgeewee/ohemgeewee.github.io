@@ -1,3 +1,7 @@
+const functions = require('firebase-functions');
+const express = require('express');
+const app = express();
+
 // Amine Hallili
 //hooking the interface object to the window
 window.View = new View();

@@ -1,3 +1,6 @@
+const functions = require('firebase-functions');
+const express = require('express');
+const app = express();
 // Prototype for displaying the song time
 // use "123.57".toFormattedTime(); or
 // var x = 124.567; (x+"").toFormattedTime();

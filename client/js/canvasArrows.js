@@ -1,3 +1,6 @@
+const functions = require('firebase-functions');
+const express = require('express');
+const app = express();
 // Borrowed and adapted from : http://stackoverflow.com/questions/808826/draw-arrow-on-canvas-tag
 function drawArrow(ctx, fromx, fromy, tox, toy, arrowWidth, color) {
   //variables to be used when creating the arrow

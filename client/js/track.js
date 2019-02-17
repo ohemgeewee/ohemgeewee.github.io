@@ -1,3 +1,6 @@
+const functions = require('firebase-functions');
+const express = require('express');
+const app = express();
 function Track(songName, instrument) {
     // name of the track : bass, guitar, voice, etc.
     this.name = instrument.name;
